@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DecodificadorADN:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DecodificadorADN_jar</output-path>
+    <root id="archive" name="DecodificadorADN.jar">
+      <element id="module-output" name="DecodificadorADN" />
+    </root>
+  </artifact>
+</component>
