@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.InterfazDecodificador">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="652" height="229"/>
+    </constraints>
+    <properties>
+      <background color="-16308415"/>
+      <focusTraversalPolicyProvider value="true"/>
+      <foreground color="-11241729"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="303d5" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-1"/>
+          <text value="SECUENCIA A"/>
+        </properties>
+      </component>
+      <component id="9177a" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-14726602"/>
+          <columns value="35"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="23f8" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <focusable value="false"/>
+          <foreground color="-658689"/>
+          <text value="SECUENCIA B"/>
+        </properties>
+      </component>
+      <component id="3b18" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-14726602"/>
+          <columns value="35"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="152b7" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-1"/>
+          <text value="RESULTADO"/>
+        </properties>
+      </component>
+      <component id="21f96" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints/>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-14726602"/>
+          <columns value="35"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="589cf" class="javax.swing.JButton" binding="identificarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <background color="-16039641"/>
+          <borderPainted value="false"/>
+          <foreground color="-1"/>
+          <text value="Identificar"/>
+        </properties>
+      </component>
+      <component id="a3131" class="javax.swing.JButton" binding="limpiarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-16039641"/>
+          <foreground color="-1"/>
+          <text value="Limpiar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
